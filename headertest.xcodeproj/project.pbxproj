@@ -15,6 +15,7 @@
 		CECCF73C1D430288008E165B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCF73A1D430288008E165B /* LaunchScreen.storyboard */; };
 		CECCF7471D430288008E165B /* headertestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCF7461D430288008E165B /* headertestTests.m */; };
 		CECCF7521D430288008E165B /* headertestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCF7511D430288008E165B /* headertestUITests.m */; };
+		CECCF7611D4304A7008E165B /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCF7601D4304A7008E165B /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CECCF74D1D430288008E165B /* headertestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = headertestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECCF7511D430288008E165B /* headertestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headertestUITests.m; sourceTree = "<group>"; };
 		CECCF7531D430288008E165B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCF75F1D4304A7008E165B /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		CECCF7601D4304A7008E165B /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CECCF7301D430288008E165B /* AppDelegate.m */,
 				CECCF7321D430288008E165B /* ViewController.h */,
 				CECCF7331D430288008E165B /* ViewController.m */,
+				CECCF75F1D4304A7008E165B /* MyView.h */,
+				CECCF7601D4304A7008E165B /* MyView.m */,
 				CECCF7351D430288008E165B /* Main.storyboard */,
 				CECCF7381D430288008E165B /* Assets.xcassets */,
 				CECCF73A1D430288008E165B /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECCF7611D4304A7008E165B /* MyView.m in Sources */,
 				CECCF7341D430288008E165B /* ViewController.m in Sources */,
 				CECCF7311D430288008E165B /* AppDelegate.m in Sources */,
 				CECCF72E1D430288008E165B /* main.m in Sources */,
